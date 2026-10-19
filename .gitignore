@@ -1,0 +1,7 @@
+# baixados por tools/ (direitos de terceiros: não versionar)
+launcher/app/src/main/assets/capas/
+launcher/app/src/main/assets/wallpapers/
+launcher/app/src/main/assets/canais.json
+retroarch/cheats/
+*.apk
+__pycache__/

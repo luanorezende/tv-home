@@ -1,0 +1,5 @@
+# Etapa separada: só rode DEPOIS de instalar o launcher novo e testar o Home.
+# TV_HOST=<ip> bash debloat/aplicar.sh debloat/tela-inicial-google.txt
+# Tela do Google TV: só desative DEPOIS de instalar o launcher novo e defini-lo como Home
+com.google.android.apps.tv.launcherx
+com.google.android.tungsten.setupwraith      # assistente de configuração (sequestrava o Home)

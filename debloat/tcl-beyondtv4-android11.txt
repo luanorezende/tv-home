@@ -1,0 +1,36 @@
+# Limpeza testada numa TCL Smart TV Pro (BeyondTV4, Google TV, Android 11, 2 GB de RAM)
+# Tudo DESATIVADO (pm disable-user), nada apagado. Para desfazer: TV_HOST=<ip> bash debloat/desfazer.sh
+
+# TCL: propaganda, telemetria e conteúdo empurrado
+com.tcl.bi                       # telemetria / coleta de dados
+com.tcl.overseasappshow          # vitrine de apps patrocinados
+com.tcl.waterfall.overseas       # vitrine de conteúdo
+com.tcl.channelplus              # canais FAST da TCL
+com.tcl.tv.tclhome_passive       # empurra conteúdo na tela inicial ao ligar
+com.tcl.partnercustomizer        # fileiras de parceiros na tela inicial
+com.tcl.messagebox               # mensagens/promoções da TCL
+com.tcl.usercenter               # conta TCL
+com.tcl.esticker                 # modo loja (demonstração)
+com.tcl.smartalexa               # Alexa da TCL
+com.tcl.assistant                # assistente da TCL
+com.tcl.hearaid                  # auxílio auditivo
+com.tcl.ocean.instructions       # manual na tela
+com.tcl.notereminder             # lembretes TCL
+com.tcl.gamebar                  # barra de jogo (reativar se usar modo jogo de console)
+com.tcl.browser                  # navegador TCL
+com.tcl.gallery                  # galeria TCL
+
+# Google que não é usado
+com.google.android.katniss                   # busca por voz
+com.google.android.tv.assistant              # Google Assistente
+com.google.android.videos                    # Play Filmes
+com.google.android.youtube.tvmusic           # YouTube Music
+com.google.android.play.games                # Play Games
+com.google.android.marvin.talkback           # TalkBack
+com.google.android.feedback                  # envio de feedback
+android.autoinstalls.config.google.gtvpai    # instala apps de parceiros sozinho
+
+# Android sem uso numa TV
+com.android.camera2
+com.android.messaging
+com.android.printspooler
